@@ -15,6 +15,6 @@ Running the model
 
   Wait some time (all runs need some time, depending on the engine you run it and the respective solver; there are solver option files for CPLEX and GUROBI; program uses GUROBI per default, to change solver you need to change hard coded "GUROBI" in "euregen.gms"; best: search and replace; check option file for number of threads the respective engine is using   to solve the program).
 
-Ex-post analysis\\
+Ex-post analysis
 7) Find output files in "output_dynamic", find condensed output in "report_verysimple_dynamic" (via "euregen_rpt.gms"), and some excel output in "excel_dynamic".
 8) There are some excel files to produce figures and tables. The sheets are linked with "Diagram..."-excel files.
